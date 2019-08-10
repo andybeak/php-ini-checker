@@ -1,0 +1,21 @@
+{
+    "name": "andybeak/php-ini-check",
+    "description": "This package helps you quickly confirm that PHP is configured for production",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Beak",
+            "email": "andy.beak@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.18"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "AndyBeak\\IniChecker\\": "src"
+        }
+    }
+}
